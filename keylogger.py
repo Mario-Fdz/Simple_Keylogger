@@ -57,7 +57,9 @@ def main():
     pulsacion_palabra()
     guardar_palabra()
     resetear_palabra()
+    
 #we use the main funcion to run the program and determinate the key 'esc' to stop the program
+
 main()
 try:
     keyboard.wait('esc')
